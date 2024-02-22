@@ -3,3 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.default-spacing{
+    width: 70%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #add8e6;
+    height: 50px;
+    padding: 10px;
+}
+
+.header{
+    padding:10px 0;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    background-color:#daa520;
+
+}
+
+.twenty{
+    width: 20%;
+    border: 1px solid black;
+}
+
+.sixty{
+    width: 60%;
+    border: 1px solid black;
+}
+
+.blue{
+    background-color: #00008b;
+    padding: 20px 50px;
+}
+
+.square-pink{
+    width: 70%;
+    background-color: #ee82ee;
+    margin: 30px auto;
+    /* debug */
+    height: 400px;
+}
+
+.sky-left{
+    width: 60%;
+    background-color: #1e90ff;
+    /* debug */
+    height: 400px;
+}
