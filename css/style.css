@@ -80,14 +80,14 @@ nav{
 }
 
 .sky-right{
-    width: 40%;
+    width: 60%;
     background-color: #1e90ff;
     /* debug */
     height: 400px;
 }
 
 .pink-left{
-    width: 60%;
+    width: 40%;
     background-color: #ffc0cb;
     /* debug */
     height: 400px;
@@ -116,11 +116,27 @@ nav{
 .column{
     background-color: #1DB2B3;
     width: 15%;
+    border: 1px solid black;
     /* debug */
     height: 400px;
-    margin: 1px solid black;
 }
 
 footer > div{
-    background-color: #0000;
+    background-color:black;
+}
+
+hr{
+    border: 2px solid white;
+}
+
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1DB2B3;
+    /* debug */
+    height: 50px;
+}
+
+button{
+    background-color: #ffc0cb;
 }
